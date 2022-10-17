@@ -30,15 +30,15 @@ function getDrink() {
                     }
                 }  
             }
-            document.querySelector('ul').appendChild(document.createElement('li')).innerText = data.drinks[random].strIngredient1;
-            
 
         })
         .catch(err => {
             console.log(`error ${err}`)
         })
 
-        document.querySelector('ul').innerText = null
+        while(document.querySelector('ul').firstChild) {
+            document.querySelector('ul').removeChild(document.querySelector('li'))
+        }
     
 }
 
