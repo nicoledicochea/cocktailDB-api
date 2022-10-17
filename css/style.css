@@ -12,15 +12,51 @@
 /*******************************************/
 
 body {
-  text-align: center;
+  text-align: justify;
+  margin: 5em auto;
+  font-size: 62.5%;
+  max-width: 30em;
 }
 
-img{
+li {
+  text-align: left;
+  text-transform: capitalize;
+  font-size: 1.2em;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 2em;
+}
+
+h1 {
+  font-size: 3em;
+}
+
+p {
+  font-size: 1.3em;
+  line-height: 150%;
+}
+
+p span {
+  font-style: italic;
+}
+
+img {
   display: block;
   margin: 0 auto;
-  height: 300px;
+  width: 100%
 }
 
+input, button {
+  display: block;
+  width: 100%;
+  padding: 2em;
+  border: 1px #000 solid;
+  border-radius: 0;
+  text-align: center;
+  margin-top: 1em;
+}
 
 /******************************************
 /* ADDITIONAL STYLES

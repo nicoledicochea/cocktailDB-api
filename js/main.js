@@ -20,7 +20,7 @@ function getDrink() {
             const random = Math.floor(Math.random() * data.drinks.length)
             document.querySelector('h2').innerText = data.drinks[random].strDrink
             document.querySelector('img').src = data.drinks[random].strDrinkThumb;
-            document.querySelector('h3').innerText = data.drinks[random].strInstructions;
+            document.querySelector('#instructions').innerText = data.drinks[random].strInstructions;
 
             for (const keys in data.drinks[random]) {
                 if (keys.includes('strIngredient')) {
