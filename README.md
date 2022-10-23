@@ -13,6 +13,10 @@ A user can search for a drink by name, type, or ingredient. Leaving the input fi
 
 Clicking the button returns the drink name, a picture, ingredients, and instructions from the data provided by the [Cocktail DB API](https://www.thecocktaildb.com/api.php).
 
-## Lessons Learned:
+## Optimizations:
 
-I don't drink 😅 so I'd love to work with the Non-Alcoholic database TheCocktailDB provided. But, there was more documentation for the Alcoholic options, so I worked with that. 
+I don't drink 😅 so I'd love to work with the Non-Alcoholic database TheCocktailDB provided. 
+
+## Lessons Learned
+
+How to account for removing added li elements with a while loop on the parent ul. Basically, a refresh on the ingredients list with each Search.
